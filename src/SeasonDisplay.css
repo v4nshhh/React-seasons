@@ -1,0 +1,40 @@
+.icon-left{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.season-display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.season-display.winter i {
+  color: blue;
+}
+
+.season-display.summer i {
+  color: orange;
+}
+
+.icon-right{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.winter{
+  background: url(https://gifspro.com/wp-content/uploads/2017/12/GifsPro-id3600387-Christmas-gifs-of-Little-house-in-snowy-hills.gif) center no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.summer{
+  background: url(https://i.pinimg.com/originals/42/82/99/42829907f7d65b4176c58934040377cb.gif) center no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 1px 1px 0px #000;
+}
